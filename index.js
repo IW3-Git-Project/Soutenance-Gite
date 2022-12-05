@@ -73,8 +73,7 @@ function App() {
     ]
 
     onModelChange = { handleModelChange }
-    />
-    ... <
-    /div>
+    /> /
+    div >
 );
 }

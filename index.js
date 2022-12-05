@@ -69,7 +69,7 @@ function App() {
         { key: -2, from: 0, to: 2 },
         { key: -3, from: 1, to: 1 },
         { key: -4, from: 2, to: 3 },
-        { key: -5, from: 3, to: 0 }
+        { key: -5, from: 3, o: 0 }
     ]
 
     onModelChange = { handleModelChange }

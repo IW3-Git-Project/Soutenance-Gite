@@ -71,10 +71,10 @@ function App() {
         { key: -4, from: 2, to: 3 },
         { key: -5, from: 3, to: 0 }
     ]
-}
-onModelChange = { handleModelChange }
-/>
-... <
-/div>
+
+    onModelChange = { handleModelChange }
+    />
+    ... <
+    /div>
 );
 }

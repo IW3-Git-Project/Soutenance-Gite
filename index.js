@@ -65,7 +65,7 @@ function App() {
         ]
     }
     linkDataArray = [
-        { key: -1, from: 0, to: 1 },
+        { key: -1, from: , to: 1 },
         { key: -2, from: 0, to: 2 },
         { key: -3, from: 1, to: 1 },
         { key: -4, from: 2, to: 3 },

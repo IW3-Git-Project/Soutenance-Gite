@@ -1,5 +1,5 @@
 {
-    "name": "sfakinedo_moderation",
+    "name": 'sfakinedo_moderation',
     "steps": {
         "step_proof_receipt": {
             "type": "moderate_participation",

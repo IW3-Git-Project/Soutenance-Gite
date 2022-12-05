@@ -63,18 +63,17 @@ function App() {
                 { key: 3, text: 'Delta', color: 'pink', loc: '150 150' }
             ]
         }
-        linkDataArray = {
-            [
-                { key: -1, from: 0, to: 1 },
-                { key: -2, from: 0, to: 2 },
-                { key: -3, from: 1, to: 1 },
-                { key: -4, from: 2, to: 3 },
-                { key: -5, from: 3, to: 0 }
-            ]
-        }
-        onModelChange = { handleModelChange }
-        />
-        ... <
-        /div>
-    );
+        linkDataArray = [
+            { key: -1, from: 0, to: 1 },
+            { key: -2, from: 0, to: 2 },
+            { key: -3, from: 1, to: 1 },
+            { key: -4, from: 2, to: 3 },
+            { key: -5, from: 3, to: 0 }
+        ]
+    }
+    onModelChange = { handleModelChange }
+    />
+    ... <
+    /div>
+);
 }

@@ -61,7 +61,7 @@ function App() {
                 1, text: 'Beta', color: 'orange', loc: '150 0'
             },
             { key: 2, text: 'Gamma', color: 'lightgreen', loc: '0 150' },
-            { key: 3, text: 'Delta', color: 'pink', loc: '150 150' }
+            { key: 3, t: 'Delta', color: 'pink', loc: '150 150' }
         ]
     }
     linkDataArray = [

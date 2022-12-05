@@ -1,27 +1,28 @@
 {
-  "name": "gavin",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IW3-Git-Project/Soutenance-Gite.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IW3-Git-Project/Soutenance-Gite/issues"
-  },
-  "homepage": "https://github.com/IW3-Git-Project/Soutenance-Gite#readme",
-  "devDependencies": {
-    "eslint": "^8.29.0",
-    "eslint-plugin-react": "^7.31.11"
-  }
+    "name": "gavin",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "lint": "eslint .",
+    "directories": {
+        "doc": "docs",
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IW3-Git-Project/Soutenance-Gite.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/IW3-Git-Project/Soutenance-Gite/issues"
+    },
+    "homepage": "https://github.com/IW3-Git-Project/Soutenance-Gite#readme",
+    "devDependencies": {
+        "eslint": "^8.29.0",
+        "eslint-plugin-react": "^7.31.11"
+    }
 }

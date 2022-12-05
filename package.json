@@ -3,13 +3,13 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "lint": "eslint .",
     "directories": {
         "doc": "docs",
         "test": "test"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint ."
     },
     "repository": {
         "type": "git",
@@ -22,11 +22,18 @@
     },
     "homepage": "https://github.com/IW3-Git-Project/Soutenance-Gite#readme",
     "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.45.0",
         "eslint": "^8.29.0",
         "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-jsx-a11y": "^6.6.1",
         "eslint-plugin-react": "^7.31.11",
-        "eslint-plugin-react-hooks": "^4.6.0"
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "stylelint-config-prettier": "^9.0.4",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "react": "^18.2.0"
     }
 }

@@ -12,7 +12,7 @@ import './App.css'; // contains .diagram-component CSS
  * This method is responsible for making the diagram and initializing the model and any templates.
  * The model's data should not be set here, as the ReactDiagram component handles that via the other props.
  */
-function initDiagram() {
+function initiagram() {
     const $ = go.GraphObject.make;
     // set your license key here before creating the diagram: go.Diagram.licenseKey = "...";
     const diagram =

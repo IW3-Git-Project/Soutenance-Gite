@@ -28,6 +28,7 @@
 <li>Build : Il lance la commande de build (si il y en a une) via Make</li>
 <li>Lint : Il lance un linter pour vérifier la qualité de code via Make
 </li>
-<li>Test : Il lance les tests unitaires via Make
+<li>Tests : Il lance les tests unitaires via Make
 </li>
+
 </ul>

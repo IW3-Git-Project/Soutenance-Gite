@@ -20,3 +20,7 @@
   <li>Avec la commande "git push" -> push sur les 2 remote (github + gitlab) (1 point)</li>
 </ul>
 <p>Le rendu final de ce projet se fera sur myges, sous forme d'un fichier texte contenant le lien vers mon repo Github et Gitlab.</p>
+
+<h4>Explication ci.yml</h4>
+<P>Ce fichier de configuration définit un travail intitulé "CI" qui s'exécute lorsqu'une nouvelle branche est créée dans le projet. Il va lancer les  étape que  (Checkout code, Setup Node.js, Install dependencies, Build, Lint, Test) pour chaque nouvelle branche créée.
+(Il est possible de spécifier des chemins à ignorer pour ne pas lancer l'action sur certains fichiers ou dossiers en utilisant le champ paths-ignore)</p>

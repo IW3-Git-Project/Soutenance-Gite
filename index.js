@@ -1,1 +1,1 @@
-import './App.css'; // contains .diagram-component CSS
+imprt './App.css'; // contains .diagram-component CSS
